@@ -1,4 +1,5 @@
 import React from 'react'
+import {FaUser,FaLock} from 'react-icons/fa'
 
 const Login = () => {
   return (
@@ -17,4 +18,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
