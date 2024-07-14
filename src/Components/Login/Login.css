@@ -52,3 +52,7 @@
 .recal-forget input {
     margin-right: 5px;
 }
+.recal-forget a {
+    color: #fff;
+    text-decoration: none;
+}
