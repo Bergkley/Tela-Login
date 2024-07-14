@@ -6,7 +6,6 @@ import "./Login.css";
 const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
-
   const handleSubmit = (event) => {
     event.preventDefault();
     alert("Enviando os dados:" + username + " - " + password);
