@@ -52,11 +52,13 @@
 .recal-forget input {
     margin-right: 5px;
 }
-.recal-forget a {
+.recal-forget a,
+.signup-link p a {
     color: #fff;
     text-decoration: none;
 }
-.recal-forget a:hover {
+.recal-forget a:hover,
+.signup-link p a:hover {
     width: 100%;
     height: 50px;
     background-color: #fff;
