@@ -28,3 +28,6 @@
     color: #fff;
     padding: 20px 45px;
 }
+.input-field input::placeholder{
+    color: #fff;
+}
