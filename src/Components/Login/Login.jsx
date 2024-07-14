@@ -7,8 +7,9 @@ const Login = () => {
     const [username,setUsername] = useState("");
     const [password,setPassword] = useState("");
     
-    const handleSubmit = (e) => {
-        e.preventDefault();
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        alert("Enviando os dados:" + username + " - " + password);
     }
 
     
@@ -17,11 +18,11 @@ const Login = () => {
       <form  onSubmit={handleSubmit}>
         <h1>Acesse o sistema</h1>
         <div>
-        <input type="email" placeholder="E-mail" />
+        <input type="email" required placeholder="E-mail" onChange={(e) => setUsername(e.target.value)} />
         <FaUser className='icon' />
         </div>
         <div>
-        <input type="password" placeholder="Senha" />
+        <input type="password" required placeholder="Senha" onChange={(e) => setPassword(e.target.value)}/>
         <FaLock className='icon' />
         </div>
         <div className="recal-forget">
