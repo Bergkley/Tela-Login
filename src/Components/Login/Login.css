@@ -49,3 +49,6 @@
 .recal-forget label {
     color: #fff;
 }
+.recal-forget input {
+    margin-right: 5px;
+}
