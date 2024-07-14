@@ -31,3 +31,12 @@
 .input-field input::placeholder{
     color: #fff;
 }
+
+.input-field .icon {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #fff;
+}
