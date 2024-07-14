@@ -68,3 +68,8 @@
     font-weight: 600;
     text-shadow: none;
 }
+.container .signup-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
